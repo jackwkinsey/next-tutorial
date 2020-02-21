@@ -1,4 +1,4 @@
-import allQuotes from '../../quotes.json';
+import allQuotes from '../../../quotes.json';
 
 export default (req, res) => {
   const author = req.query.author?.toLowerCase();
